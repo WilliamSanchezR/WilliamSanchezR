@@ -10,8 +10,8 @@
 🌱 &nbsp;Actualmente aprendiendo más sobre desarrollo web moderno y arquitecturas escalables.\
 ✍️ &nbsp;En mi tiempo libre, disfruto de programar proyectos personales y aprender nuevas tecnologías.\
 💬 &nbsp;No dudes en contactarme para consultas, colaboraciones o simplemente una charla interesante.\
-✉️ &nbsp;Puedes enviarme un email a [tuemail@ejemplo.com]!  Intentaré responder lo antes posible.\
-📄 &nbsp;Echa un vistazo a mi [Portafolio](https://tu-portfolio.com) para más detalles sobre mí.
+✉️ &nbsp;Puedes enviarme un email a [sanchezwill596@gmail.com]!  Intentaré responder lo antes posible.\
+📄 &nbsp;Echa un vistazo a mi [Portafolio](https://williamsanchezr.github.io/Portafolio/) para más detalles sobre mí.
 
 <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding. gif" align="right"/>
 
@@ -29,9 +29,8 @@
 
 #### ⚙️ &nbsp;Backend
 
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)&nbsp;
-![Express.js](https://img.shields.io/badge/Express. js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
-![Node.js](https://img.shields.io/badge/Node.js-339933? style=for-the-badge&logo=nodedotjs&logoColor=white)&nbsp;
 
 ### 🗃 &nbsp;Bases de Datos
 
@@ -39,7 +38,7 @@
 
 ### 🧰 &nbsp;Control de Versiones & Herramientas
 
-![Git](https://img.shields.io/badge/Git-F05032? style=for-the-badge&logo=git&logoColor=white)&nbsp;
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&nbsp;
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)&nbsp;
 ![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)&nbsp;
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)&nbsp;
@@ -56,27 +55,6 @@
   </a>
   <a href="https://github.com/WilliamSanchezR">
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=8&theme=algolia"/>
-  </a>
-</p>
-
----
-
-### 📈 &nbsp;Gráfico de Actividad
-
-<p align="center">
-  <img src="https://github-readme-activity-graph. vercel.app/graph?username=WilliamSanchezR&theme=react-dark&hide_border=true&area=true" alt="Activity Graph"/>
-</p>
-
----
-
-### 🎯 &nbsp;Proyectos Destacados
-
-<p align="center">
-  <a href="https://github.com/WilliamSanchezR/NOMBRE-REPO-1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WilliamSanchezR&repo=NOMBRE-REPO-1&theme=algolia" alt="Repo 1"/>
-  </a>
-  <a href="https://github.com/WilliamSanchezR/NOMBRE-REPO-2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/? username=WilliamSanchezR&repo=NOMBRE-REPO-2&theme=algolia" alt="Repo 2"/>
   </a>
 </p>
 
