@@ -61,12 +61,6 @@
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=WilliamSanchezR&theme=dark&hide_border=true"/>
 </p>
 
-### 🏆 &nbsp;Logros de GitHub
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/? username=WilliamSanchezR&theme=algolia&no-frame=true&row=1&column=7" alt="trophy"/>
-</p>
-
 ### 📈 &nbsp;Gráfico de Actividad
 
 <p align="center">
@@ -82,16 +76,6 @@
 <a href="https://www.instagram.com/tu-usuario/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/></a>
 <a href="https://twitter.com/tu-usuario"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/></a>
 </p>
-
-### 🐍 &nbsp;Así se mueven los Commits... 
-
-<div align="center">
-  <a href="https://github.com/WilliamSanchezR/">
-  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake. svg"
-       alt="snake" /></a>
-</div>
-
----
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=WilliamSanchezR&color=blueviolet&style=flat-square&label=Visitas+al+Perfil" alt="Profile views"/>
