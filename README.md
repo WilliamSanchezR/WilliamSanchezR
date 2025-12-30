@@ -15,25 +15,52 @@
 
 ## 🛠️ Tecnologías y Herramientas
 
+### 💻 Lenguajes
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,html,css,react,nextjs,vue,redux,nodejs,express,django,mongodb,postgres,mysql,redis,dynamodb,prisma,git,github,docker,kubernetes,aws,firebase,nginx,linux,vscode,postman,figma,tailwind,materialui,md&perline=11" />
+    <img src="https://skillicons.dev/icons?i=js,php" />
   </a>
 </div>
 
-> 💡 **Nota:** Personaliza estas tecnologías según tu experiencia real.  Elimina las que no uses y añade las que falten.
+### 🎨 Frontend
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,react" />
+  </a>
+</div>
+
+### ⚙️ Backend
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=express" />
+  </a>
+</div>
+
+### 🗄️ Bases de Datos
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mysql" />
+  </a>
+</div>
+
+### 🔧 Herramientas
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,discord,linux" />
+  </a>
+</div>
 
 ---
 
 ## 📊 Estadísticas de GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api? username=WilliamSanchezR&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=WilliamSanchezR&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=WilliamSanchezR&theme=tokyonight" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/? user=WilliamSanchezR&theme=tokyonight" alt="GitHub Streak"/>
 </div>
 
 ---
@@ -49,7 +76,7 @@
 ## 📈 Actividad
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel. app/graph?username=WilliamSanchezR&theme=tokyo-night&hide_border=true" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=WilliamSanchezR&theme=tokyo-night&hide_border=true" alt="Activity Graph"/>
 </div>
 
 ---
