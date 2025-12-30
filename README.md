@@ -13,14 +13,13 @@
 ✉️ &nbsp;Puedes enviarme un email a [tuemail@ejemplo.com]!  Intentaré responder lo antes posible.\
 📄 &nbsp;Echa un vistazo a mi [Portafolio](https://tu-portfolio.com) para más detalles sobre mí. 
 
-<img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
+<img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding. gif" align="right"/>
 
 ### 🛠 &nbsp;Tech Stack
 
 #### 💻 &nbsp;Lenguajes
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E? style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
-![PHP](https://img.shields.io/badge/PHP-777BB4? style=for-the-badge&logo=php&logoColor=white)&nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)&nbsp;
 
 #### 🎨 &nbsp;Frontend
 
@@ -30,6 +29,7 @@
 
 #### ⚙️ &nbsp;Backend
 
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)&nbsp;
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)&nbsp;
 
@@ -41,16 +41,16 @@
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&nbsp;
 ![GitHub](https://img.shields.io/badge/GitHub-181717? style=for-the-badge&logo=github&logoColor=white)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)&nbsp;
+![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)&nbsp;
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)&nbsp;
-![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)&nbsp;
+![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)&nbsp;
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)&nbsp;
 
 ### ⚙️ &nbsp;GitHub Analytics
 
 <p align="center">
   <a href="https://github.com/WilliamSanchezR">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel. app/api?username=WilliamSanchezR&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=WilliamSanchezR&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
   </a>
   <a href="https://github.com/WilliamSanchezR">
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=8&theme=algolia"/>
