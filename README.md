@@ -19,7 +19,8 @@
 
 #### 💻 &nbsp;Lenguajes
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E? style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
+![PHP](https://img.shields.io/badge/PHP-777BB4? style=for-the-badge&logo=php&logoColor=white)&nbsp;
 
 #### 🎨 &nbsp;Frontend
 
@@ -30,7 +31,7 @@
 #### ⚙️ &nbsp;Backend
 
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)&nbsp;
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)&nbsp;
 
 ### 🗃 &nbsp;Bases de Datos
 
@@ -40,19 +41,19 @@
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&nbsp;
 ![GitHub](https://img.shields.io/badge/GitHub-181717? style=for-the-badge&logo=github&logoColor=white)&nbsp;
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)&nbsp;
+![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)&nbsp;
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)&nbsp;
-![Discord](https://img.shields.io/badge/Discord-5865F2? style=for-the-badge&logo=discord&logoColor=white)&nbsp;
-![Linux](https://img.shields.io/badge/Linux-FCC624? style=for-the-badge&logo=linux&logoColor=black)&nbsp;
+![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)&nbsp;
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)&nbsp;
 
 ### ⚙️ &nbsp;GitHub Analytics
 
 <p align="center">
   <a href="https://github.com/WilliamSanchezR">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=WilliamSanchezR&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel. app/api?username=WilliamSanchezR&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
   </a>
   <a href="https://github.com/WilliamSanchezR">
-    <img height="180em" src="https://github-readme-stats-eight-theta. vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=8&theme=algolia"/>
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=8&theme=algolia"/>
   </a>
 </p>
 
@@ -76,8 +77,8 @@
 
 <p align="center">
 <a href="https://tu-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=google-chrome&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/tu-perfil/"><img src="https://img.shields.io/badge/LinkedIn-0077B5? style=flat&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:tuemail@example.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/tu-perfil/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:tuemail@example.com"><img src="https://img.shields.io/badge/Gmail-D14836? style=flat&logo=gmail&logoColor=white"/></a>
 <a href="https://www.instagram.com/tu-usuario/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/></a>
 <a href="https://twitter.com/tu-usuario"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/></a>
 </p>
@@ -86,14 +87,14 @@
 
 <div align="center">
   <a href="https://github.com/WilliamSanchezR/">
-  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg"
+  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake. svg"
        alt="snake" /></a>
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/? username=WilliamSanchezR&color=blueviolet&style=flat-square&label=Visitas+al+Perfil" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=WilliamSanchezR&color=blueviolet&style=flat-square&label=Visitas+al+Perfil" alt="Profile views"/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api? type=waving&color=gradient&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
