@@ -19,32 +19,32 @@
 
 #### 💻 &nbsp;Lenguajes
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)&nbsp;
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)&nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)&nbsp;
 
 #### 🎨 &nbsp;Frontend
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg? style=for-the-badge&logo=css3&logoColor=white)&nbsp;
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)&nbsp;
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
 
 #### ⚙️ &nbsp;Backend
 
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)&nbsp;
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node. js&logoColor=white)&nbsp;
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)&nbsp;
 
 ### 🗃 &nbsp;Bases de Datos
 
-![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white)&nbsp;
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)&nbsp;
 
 ### 🧰 &nbsp;Control de Versiones & Herramientas
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)&nbsp;
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)&nbsp;
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg? style=for-the-badge&logo=figma&logoColor=white)&nbsp;
-![Discord](https://img.shields.io/badge/Discord-%235865F2.svg? style=for-the-badge&logo=discord&logoColor=white)&nbsp;
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)&nbsp;
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&nbsp;
+![GitHub](https://img.shields.io/badge/GitHub-181717? style=for-the-badge&logo=github&logoColor=white)&nbsp;
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)&nbsp;
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)&nbsp;
+![Discord](https://img.shields.io/badge/Discord-5865F2? style=for-the-badge&logo=discord&logoColor=white)&nbsp;
+![Linux](https://img.shields.io/badge/Linux-FCC624? style=for-the-badge&logo=linux&logoColor=black)&nbsp;
 
 ### ⚙️ &nbsp;GitHub Analytics
 
@@ -53,7 +53,7 @@
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=WilliamSanchezR&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
   </a>
   <a href="https://github.com/WilliamSanchezR">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=8&theme=algolia"/>
+    <img height="180em" src="https://github-readme-stats-eight-theta. vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=8&theme=algolia"/>
   </a>
 </p>
 
@@ -70,20 +70,20 @@
 ### 📈 &nbsp;Gráfico de Actividad
 
 <p align="center">
-  <img src="https://github-readme-activity-graph. vercel.app/graph?username=WilliamSanchezR&theme=react-dark&hide_border=true&area=true" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=WilliamSanchezR&theme=react-dark&hide_border=true&area=true" alt="Activity Graph"/>
 </p>
 
 ### 🤝🏻 &nbsp;Conecta Conmigo
 
 <p align="center">
-<a href="https://tu-portfolio.com"><img src="https://img.shields.io/badge/-williamsanchez.com-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/tu-perfil/"><img src="https://img.shields.io/badge/-William%20Sánchez-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="mailto:tuemail@example.com"><img src="https://img.shields.io/badge/-williamsanchez-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="https://www.instagram.com/tu-usuario/"><img src="https://img.shields.io/badge/-tuusuario-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
-<a href="https://twitter.com/tu-usuario"><img src="https://img.shields.io/badge/-@tuusuario-1DA1F2?style=flat&logo=Twitter&logoColor=white"/></a>
+<a href="https://tu-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=google-chrome&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/tu-perfil/"><img src="https://img.shields.io/badge/LinkedIn-0077B5? style=flat&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:tuemail@example.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/></a>
+<a href="https://www.instagram.com/tu-usuario/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/></a>
+<a href="https://twitter.com/tu-usuario"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/></a>
 </p>
 
-### 🐍 &nbsp;Así se mueven los Commits...
+### 🐍 &nbsp;Así se mueven los Commits... 
 
 <div align="center">
   <a href="https://github.com/WilliamSanchezR/">
@@ -94,7 +94,7 @@
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=WilliamSanchezR&color=blueviolet&style=flat-square&label=Visitas+al+Perfil" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/? username=WilliamSanchezR&color=blueviolet&style=flat-square&label=Visitas+al+Perfil" alt="Profile views"/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api? type=waving&color=gradient&height=100&section=footer"/>
