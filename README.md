@@ -1,4 +1,4 @@
-![William Sanchez Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=William%20Sánchez&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff)
+![William Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=William%20Sánchez&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff)
 
 <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Hand%20Wave.gif" width='40' align="left"/><h2 align="left">Hey there!  I'm William Sánchez</h2>
 
