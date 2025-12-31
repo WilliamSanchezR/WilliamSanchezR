@@ -13,7 +13,7 @@
 ✉️ &nbsp;Puedes enviarme un email a [sanchezwill596@gmail.com]!  Intentaré responder lo antes posible.\
 📄 &nbsp;Echa un vistazo a mi [Portafolio](https://williamsanchezr.github.io/Portafolio/) para más detalles sobre mí.
 
-<img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding. gif" align="right"/>
+<img alt="Night Coding" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnU1d29lODJ1dXNuNXY0aWF1dmo5aTFmZWVrd2gzcTFmZm15NDhraiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EZr27ZbJwmjE9PGyLN/giphy.gif" align="right"/>
 
 ### 🛠 &nbsp;Tech Stack
 
