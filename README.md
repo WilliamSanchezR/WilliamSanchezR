@@ -63,11 +63,11 @@
 ### 🤝🏻 &nbsp;Conecta Conmigo
 
 <p align="center">
-<a target="_blank" href="https://williamsanchezr.github.io/Portafolio/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=google-chrome&logoColor=white"/></a>
-<a target="_blank" href="https://www.linkedin.com/in/william-andres-sanchez-rojas-1a3096264/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>
-<a target="_blank" href="mailto:sanchezwill596@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/></a>
-<a target="_blank" href="https://www.instagram.com/sanchezwill596/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/></a>
-<a target="_blank" href="https://x.com/will6728"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/></a>
+<a href="https://williamsanchezr.github.io/Portafolio/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=google-chrome&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/william-andres-sanchez-rojas-1a3096264/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:sanchezwill596@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/></a>
+<a href="https://www.instagram.com/sanchezwill596/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Instagram-E4405F? style=flat&logo=instagram&logoColor=white"/></a>
+<a href="https://x.com/will6728" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/></a>
 </p>
 
 ---
