@@ -4,14 +4,13 @@
 
 ### 👨🏻‍💻 &nbsp;Sobre Mí
 
-👨‍💻 &nbsp;Actualmente trabajando en proyectos innovadores como Desarrollador Full Stack.\
-💡 &nbsp;Me gusta explorar nuevas tecnologías y desarrollar soluciones de software.\
-🎓 &nbsp;Estoy en constante aprendizaje de nuevas herramientas y tecnologías.\
-🌱 &nbsp;Actualmente aprendiendo más sobre desarrollo web moderno y arquitecturas escalables.\
-✍️ &nbsp;En mi tiempo libre, disfruto de programar proyectos personales y aprender nuevas tecnologías.\
-💬 &nbsp;No dudes en contactarme para consultas, colaboraciones o simplemente una charla interesante.\
-✉️ &nbsp;Puedes enviarme un email a [sanchezwill596@gmail.com]!  Intentaré responder lo antes posible.\
-📄 &nbsp;Echa un vistazo a mi [Portafolio](https://williamsanchezr.github.io/Portafolio/) para más detalles sobre mí.
+Actualmente trabajando en proyectos innovadores. Me gusta explorar nuevas tecnologías y desarrollar soluciones de software. Estoy en constante aprendizaje de nuevas herramientas y tecnologías. Actualmente aprendiendo más sobre desarrollo web moderno y arquitecturas escalables.
+
+* 🌍  Estoy ubicado en Colombia
+* 🖥️  Mira mi portafolio [Portafolio](http://williamsanchezr.github.io/Portafolio/)
+* ✉️  Puedes contactarme [sanchezwill596@gmail.com](mailto:sanchezwill596@gmail.com)
+* 🚀  Actualmente estoy trabajando en [Vetwilling](http://github.com/WilliamSanchezR/VETWILLING)
+* 🧠  Actualmente estoy aprendiendo TypeScript, Express, React.
 
 <img alt="Night Coding" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnU1d29lODJ1dXNuNXY0aWF1dmo5aTFmZWVrd2gzcTFmZm15NDhraiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EZr27ZbJwmjE9PGyLN/giphy.gif" align="right"/>
 
