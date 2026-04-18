@@ -77,12 +77,12 @@ Me apasiona explorar nuevas tecnologías y construir soluciones de software. Sie
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=WilliamSanchezR&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000"/>
-  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=00000000"/>
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=WilliamSanchezR&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117"/>
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=0D1117"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=WilliamSanchezR&theme=github-dark-blue&hide_border=true&background=00000000" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=WilliamSanchezR&theme=github-dark-blue&hide_border=true&background=0D1117" height="170"/>
 </div>
 
 ---
