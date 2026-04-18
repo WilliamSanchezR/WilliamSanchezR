@@ -1,78 +1,94 @@
-![William Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=William%20Sánchez&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff)
+<div align="center">
 
-<h2 align="left">Hola! soy William <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Hand%20Wave.gif" width='40' align="left"/></h2>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=William%20Sánchez&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=Full%20Stack%20Developer%20%7C%20Colombia%20🇨🇴&descAlignY=55&descSize=18)
 
-### 👨🏻‍💻 &nbsp;Sobre Mí
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=googlechrome&logoColor=white)](https://williamsanchezr.github.io/Portafolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/william-andres-sanchez-rojas-1a3096264/)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sanchezwill596@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/sanchezwill596/)
+[![X](https://img.shields.io/badge/X-000?style=flat-square&logo=x&logoColor=white)](https://x.com/will6728)
 
-Actualmente trabajando en proyectos innovadores. Me gusta explorar nuevas tecnologías y desarrollar soluciones de software. Estoy en constante aprendizaje de nuevas herramientas y tecnologías. Actualmente aprendiendo más sobre desarrollo web moderno y arquitecturas escalables.
-
-* 🌍  Estoy ubicado en Colombia
-* 🖥️  Mira mi portafolio [Portafolio](http://williamsanchezr.github.io/Portafolio/)
-* ✉️  Puedes contactarme [sanchezwill596@gmail.com](mailto:sanchezwill596@gmail.com)
-* 🚀  Actualmente estoy trabajando en [Vetwilling](http://github.com/WilliamSanchezR/VETWILLING)
-* 🧠  Actualmente estoy aprendiendo TypeScript, Express, React.
-
-<img alt="Night Coding" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnU1d29lODJ1dXNuNXY0aWF1dmo5aTFmZWVrd2gzcTFmZm15NDhraiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EZr27ZbJwmjE9PGyLN/giphy.gif" align="right"/>
-
-### 🛠 &nbsp;Tech Stack
-
-#### 💻 &nbsp;Lenguajes
-
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)&nbsp;
-
-#### 🎨 &nbsp;Frontend
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-
-#### ⚙️ &nbsp;Backend
-
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)&nbsp;
-
-### 🗃 &nbsp;Bases de Datos
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)&nbsp;
-
-### 🧰 &nbsp;Control de Versiones & Herramientas
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&nbsp;
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)&nbsp;
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)&nbsp;
-![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)&nbsp;
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)&nbsp;
+</div>
 
 ---
 
-### ⚙️ &nbsp;GitHub Analytics
+### 🧑‍💻 Sobre Mí
 
-<p align="center">
-  <a href="https://github.com/WilliamSanchezR">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=WilliamSanchezR&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  </a>
-  <a href="https://github.com/WilliamSanchezR">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=8&theme=algolia"/>
-  </a>
-</p>
+Me apasiona explorar nuevas tecnologías y construir soluciones de software. Siempre en constante aprendizaje.
+
+- 🚀 Trabajando en [**Vetwilling**](http://github.com/WilliamSanchezR/VETWILLING)
+- 🧠 Aprendiendo **Python · Laravel · React**
+- 📫 Contáctame en **sanchezwill596@gmail.com**
 
 ---
 
-### 🤝🏻 &nbsp;Conecta Conmigo
+### 🛠 Tech Stack
 
-<p align="center">
-<a href="https://williamsanchezr.github.io/Portafolio/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=google-chrome&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/william-andres-sanchez-rojas-1a3096264/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:sanchezwill596@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/></a>
-<a href="https://www.instagram.com/sanchezwill596/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/></a>
-<a href="https://x.com/will6728" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/></a>
-</p>
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=js" width="40" /><br><sub>JavaScript</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=python" width="40" /><br><sub>Python</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=html" width="40" /><br><sub>HTML</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=css" width="40" /><br><sub>CSS</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=react" width="40" /><br><sub>React</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=laravel" width="40" /><br><sub>Laravel</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=php" width="40" /><br><sub>PHP</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mysql" width="40" /><br><sub>MySQL</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=git" width="40" /><br><sub>Git</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=github" width="40" /><br><sub>GitHub</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vscode" width="40" /><br><sub>VS Code</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=figma" width="40" /><br><sub>Figma</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=linux" width="40" /><br><sub>Linux</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 GitHub Analytics
+
+<div align="center">
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=WilliamSanchezR&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000"/>
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=WilliamSanchezR&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=00000000"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=WilliamSanchezR&theme=github-dark-blue&hide_border=true&background=00000000" height="170"/>
+</div>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=WilliamSanchezR&color=blueviolet&style=flat-square&label=Visitas+al+Perfil" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=WilliamSanchezR&color=6C63FF&style=flat-square&label=Visitas"/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=100&section=footer"/>
