@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=William%20Sánchez&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=%20%20Developer%20%7C%20Colombia%20🇨🇴&descAlignY=55&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=William%20Sánchez&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=%20%20Developer%20%7C%20Colombia%20&descAlignY=55&descSize=18)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=googlechrome&logoColor=white)](https://williamsanchezr.github.io/Portafolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/william-andres-sanchez-rojas-1a3096264/)
