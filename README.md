@@ -39,7 +39,7 @@ Me apasiona explorar nuevas tecnologías y construir soluciones de software. Sie
       <img src="https://skillicons.dev/icons?i=css" width="40" /><br><sub>CSS</sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=react" width="40" /><br><sub>React</sub>
+      <img src="https://skillicons.dev/icons?i=csharp" width="40" /><br><sub>C#</sub>
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=laravel" width="40" /><br><sub>Laravel</sub>
