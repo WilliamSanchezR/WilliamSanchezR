@@ -1,5 +1,5 @@
 <!-- ================= BANNER ================= -->
-<img src="./assets/banner.svg" width="100%" alt="William Sánchez, backend developer"/>
+<img src="banner.svg" width="100%" alt="William Sánchez, backend developer"/>
 
 <br/>
 
@@ -40,7 +40,7 @@ william = {
 
 </td>
 <td width="42%" valign="top" align="center">
-  <img src="./assets/workspace.svg" width="100%" alt="Escritorio de programador de noche"/>
+  <img src="workspace.svg" width="100%" alt="Escritorio de programador de noche"/>
 </td>
 </tr>
 </table>
