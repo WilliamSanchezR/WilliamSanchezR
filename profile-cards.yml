@@ -1,6 +1,11 @@
 name: Actualizar tarjetas del perfil
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "generate_cards.py"
+      - ".github/workflows/profile-cards.yml"
   schedule:
     - cron: "0 6 * * *"   # todos los días a la 1 a. m. hora Colombia
   workflow_dispatch:       # botón para correrlo a mano
@@ -26,10 +31,15 @@ jobs:
           GH_USERNAME: ${{ github.repository_owner }}
         run: python generate_cards.py
 
-      - name: Guardar cambios
+      - name: Guardar tarjetas en el repo
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add profile-cards
-          git diff --cached --quiet || git commit -m "Actualizar tarjetas del perfil"
-          git push
+          if git diff --cached --quiet; then
+            echo "Sin cambios en las tarjetas"
+          else
+            git commit -m "Actualizar tarjetas del perfil"
+            git pull --rebase
+            git push
+          fi

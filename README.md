@@ -1,5 +1,5 @@
 <!-- ================= BANNER ================= -->
-<img src="banner.svg" width="100%" alt="William Sánchez, backend developer"/>
+<img src="./banner.svg" width="100%" alt="William Sánchez, backend developer"/>
 
 <br/>
 
@@ -40,7 +40,7 @@ william = {
 
 </td>
 <td width="42%" valign="top" align="center">
-  <img src="workspace.svg" width="100%" alt="Escritorio de programador de noche"/>
+  <img src="./workspace.svg" width="100%" alt="Escritorio de programador de noche"/>
 </td>
 </tr>
 </table>
@@ -89,12 +89,12 @@ william = {
 <!-- Estas tarjetas las genera .github/workflows/profile-cards.yml todos los días -->
 <div align="center">
 
-<img width="100%" src="profile-cards/profile.svg" alt="Resumen del perfil"/>
+<img width="100%" src="./profile-cards/profile.svg" alt="Resumen del perfil"/>
 
-<img width="49%" src="profile-cards/langs-repo.svg" alt="Lenguajes por repositorio"/>
-<img width="49%" src="profile-cards/commit-hours.svg" alt="Commits por hora"/>
+<img width="49%" src="./profile-cards/langs-repo.svg" alt="Lenguajes por repositorio"/>
+<img width="49%" src="./profile-cards/commit-hours.svg" alt="Commits por hora"/>
 
-<img width="49%" src="profile-cards/stats.svg" alt="Estadísticas"/>
-<img width="49%" src="profile-cards/langs-commit.svg" alt="Lenguajes por commit"/>
+<img width="49%" src="./profile-cards/stats.svg" alt="Estadísticas"/>
+<img width="49%" src="./profile-cards/langs-commit.svg" alt="Lenguajes por commit"/>
 
 </div>
