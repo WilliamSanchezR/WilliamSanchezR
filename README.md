@@ -16,19 +16,9 @@ william = {
 
     "construyendo": [
         "Vetwilling (en producción)",
-        "AGROVA: marketplace agrícola productor ↔ comerciante",
+        "AGROVA: marketplace agrícola (FastAPI + React)",
         "Backend de una app móvil",
     ],
-
-    # En AGROVA (equipo, Scrum + Jira) me encargo de:
-    "agrova": {
-        "api":      "FastAPI · SQLAlchemy async · arquitectura hexagonal",
-        "modulos":  ["identidad y roles", "negociación y chat",
-                     "propuestas y contraofertas", "notificaciones",
-                     "panel de administración"],
-        "frontend": "React 19 + TypeScript (mobile first)",
-        "calidad":  ["pytest: unit · integración · e2e", "CI en GitHub Actions", "Docker"],
-    },
 
     "formacion": [
         "Tecnólogo ADSO · SENA",
