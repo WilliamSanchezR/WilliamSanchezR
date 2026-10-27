@@ -24,7 +24,7 @@ jobs:
           # Si creas el secreto GH_STATS_TOKEN, también cuenta tus repos privados
           GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           GH_USERNAME: ${{ github.repository_owner }}
-        run: python scripts/generate_cards.py
+        run: python generate_cards.py
 
       - name: Guardar cambios
         run: |
