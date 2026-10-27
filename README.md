@@ -1,5 +1,5 @@
 <!-- ================= BANNER ================= -->
-<img src="banner.svg" width="100%" alt="William Sánchez, backend developer"/>
+<img src="./assets/banner.svg" width="100%" alt="William Sánchez, backend developer"/>
 
 <br/>
 
@@ -40,7 +40,7 @@ william = {
 
 </td>
 <td width="42%" valign="top" align="center">
-  <img src="workspace.svg" width="100%" alt="Escritorio de programador de noche"/>
+  <img src="./assets/workspace.svg" width="100%" alt="Escritorio de programador de noche"/>
 </td>
 </tr>
 </table>
@@ -53,7 +53,7 @@ william = {
 
 <a href="https://www.linkedin.com/in/william-andres-sanchez-rojas-1a3096264/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://williamsanchezr.github.io/Portafolio/"><img src="https://img.shields.io/badge/Portafolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-<a href="https://vetwilling.com"><img src="https://img.shields.io/badge/Vetwilling-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+<a href="https://vetwilling.com"><img src="https://img.shields.io/badge/Vetwilling-F27D16?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
 <a href="mailto:sanchezwill596@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://x.com/will6728"><img src="https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
 <a href="https://www.instagram.com/sanchezwill596/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
@@ -86,24 +86,15 @@ william = {
 
 ## 📊 GitHub Analytics
 
+<!-- Estas tarjetas las genera .github/workflows/profile-cards.yml todos los días -->
 <div align="center">
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WilliamSanchezR&theme=tokyonight"/>
+<img width="100%" src="./profile-cards/profile.svg" alt="Resumen del perfil"/>
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WilliamSanchezR&theme=tokyonight"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=WilliamSanchezR&theme=tokyonight&utcOffset=-5"/>
+<img width="49%" src="./profile-cards/langs-repo.svg" alt="Lenguajes por repositorio"/>
+<img width="49%" src="./profile-cards/commit-hours.svg" alt="Commits por hora"/>
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=WilliamSanchezR&theme=tokyonight"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=WilliamSanchezR&theme=tokyonight"/>
-
-</div>
-
-<br/>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=WilliamSanchezR&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4"/>
+<img width="49%" src="./profile-cards/stats.svg" alt="Estadísticas"/>
+<img width="49%" src="./profile-cards/langs-commit.svg" alt="Lenguajes por commit"/>
 
 </div>

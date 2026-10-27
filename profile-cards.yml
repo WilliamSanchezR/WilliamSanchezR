@@ -1,0 +1,35 @@
+name: Actualizar tarjetas del perfil
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # todos los días a la 1 a. m. hora Colombia
+  workflow_dispatch:       # botón para correrlo a mano
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generar SVG
+        env:
+          # Si creas el secreto GH_STATS_TOKEN, también cuenta tus repos privados
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: python scripts/generate_cards.py
+
+      - name: Guardar cambios
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add profile-cards
+          git diff --cached --quiet || git commit -m "Actualizar tarjetas del perfil"
+          git push
