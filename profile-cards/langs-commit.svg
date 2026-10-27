@@ -1,29 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-label="Lenguajes por commit">
 <style>
   text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
-  .t { font-size: 21px; font-weight: 600; fill: #F27D16; }
-  .x { font-size: 14px; fill: #E9E4D8; }
-  .m { font-size: 11px; fill: #A9B79A; }
-  .v { font-size: 14px; font-weight: 700; fill: #E9E4D8; }
+  .t { font-family: 'Arial Black', 'Segoe UI Black', Impact, 'Helvetica Neue', sans-serif; font-size: 19px; font-weight: 900; fill: #FAE3AC; letter-spacing: .3px; }
+  .x { font-size: 14px; fill: #01344F; }
+  .m { font-size: 11px; fill: #4F6B7A; }
+  .v { font-family: 'Arial Black', 'Segoe UI Black', Impact, 'Helvetica Neue', sans-serif; font-size: 14px; font-weight: 900; fill: #01344F; }
 </style>
-<clipPath id="k"><rect x="0.5" y="0.5" width="339" height="199" rx="8"/></clipPath>
-<rect x="0.5" y="0.5" width="339" height="199" rx="8" fill="#333333"/>
-<rect x="0" y="0" width="5" height="200" fill="#F27D16" clip-path="url(#k)"/>
-<rect x="0.5" y="0.5" width="339" height="199" rx="8" fill="none" stroke="#264A31" stroke-width="1.5"/>
-<text class="t" x="24" y="38">Lenguajes por commit</text>
-<rect x="26" y="65" width="12" height="12" rx="3" fill="#F27D16"/>
-<text class="x" x="46" y="76">PHP <tspan class="m">40%</tspan></text>
-<rect x="26" y="91" width="12" height="12" rx="3" fill="#6B854A"/>
-<text class="x" x="46" y="102">HTML <tspan class="m">34%</tspan></text>
-<rect x="26" y="117" width="12" height="12" rx="3" fill="#A3B86C"/>
-<text class="x" x="46" y="128">Python <tspan class="m">17%</tspan></text>
-<rect x="26" y="143" width="12" height="12" rx="3" fill="#C2410C"/>
-<text class="x" x="46" y="154">CSS <tspan class="m">6%</tspan></text>
-<rect x="26" y="169" width="12" height="12" rx="3" fill="#E9E4D8"/>
-<text class="x" x="46" y="180">JavaScript <tspan class="m">3%</tspan></text><circle cx="262" cy="120" r="48" fill="none" stroke="#454545" stroke-width="22"/>
-<circle cx="262" cy="120" r="48" fill="none" stroke="#F27D16" stroke-width="22" stroke-dasharray="119.48 182.12" stroke-dashoffset="0.00" transform="rotate(-90 262 120)"/>
-<circle cx="262" cy="120" r="48" fill="none" stroke="#6B854A" stroke-width="22" stroke-dasharray="103.24 198.36" stroke-dashoffset="-119.48" transform="rotate(-90 262 120)"/>
-<circle cx="262" cy="120" r="48" fill="none" stroke="#A3B86C" stroke-width="22" stroke-dasharray="52.20 249.39" stroke-dashoffset="-222.71" transform="rotate(-90 262 120)"/>
-<circle cx="262" cy="120" r="48" fill="none" stroke="#C2410C" stroke-width="22" stroke-dasharray="17.40 284.19" stroke-dashoffset="-274.91" transform="rotate(-90 262 120)"/>
-<circle cx="262" cy="120" r="48" fill="none" stroke="#E9E4D8" stroke-width="22" stroke-dasharray="9.28 292.31" stroke-dashoffset="-292.31" transform="rotate(-90 262 120)"/>
+<clipPath id="k"><rect x="1.5" y="1.5" width="334" height="194" rx="16"/></clipPath>
+<rect x="6" y="6" width="333" height="193" rx="16" fill="#01344F"/>
+<rect x="1.5" y="1.5" width="334" height="194" rx="16" fill="#FAE3AC"/>
+<g clip-path="url(#k)">
+  <rect x="0" y="0" width="340" height="48" fill="#D12128"/>
+  <g fill="#FAE3AC" opacity="0.45"><circle cx="224.0" cy="9.0" r="0.40"/><circle cx="231.0" cy="9.0" r="0.57"/><circle cx="238.0" cy="9.0" r="0.74"/><circle cx="245.0" cy="9.0" r="0.90"/><circle cx="252.0" cy="9.0" r="1.07"/><circle cx="259.0" cy="9.0" r="1.24"/><circle cx="266.0" cy="9.0" r="1.41"/><circle cx="273.0" cy="9.0" r="1.57"/><circle cx="280.0" cy="9.0" r="1.74"/><circle cx="287.0" cy="9.0" r="1.91"/><circle cx="294.0" cy="9.0" r="2.08"/><circle cx="301.0" cy="9.0" r="2.24"/><circle cx="308.0" cy="9.0" r="2.41"/><circle cx="315.0" cy="9.0" r="2.58"/><circle cx="224.0" cy="16.0" r="0.40"/><circle cx="231.0" cy="16.0" r="0.57"/><circle cx="238.0" cy="16.0" r="0.74"/><circle cx="245.0" cy="16.0" r="0.90"/><circle cx="252.0" cy="16.0" r="1.07"/><circle cx="259.0" cy="16.0" r="1.24"/><circle cx="266.0" cy="16.0" r="1.41"/><circle cx="273.0" cy="16.0" r="1.57"/><circle cx="280.0" cy="16.0" r="1.74"/><circle cx="287.0" cy="16.0" r="1.91"/><circle cx="294.0" cy="16.0" r="2.08"/><circle cx="301.0" cy="16.0" r="2.24"/><circle cx="308.0" cy="16.0" r="2.41"/><circle cx="315.0" cy="16.0" r="2.58"/><circle cx="224.0" cy="23.0" r="0.40"/><circle cx="231.0" cy="23.0" r="0.57"/><circle cx="238.0" cy="23.0" r="0.74"/><circle cx="245.0" cy="23.0" r="0.90"/><circle cx="252.0" cy="23.0" r="1.07"/><circle cx="259.0" cy="23.0" r="1.24"/><circle cx="266.0" cy="23.0" r="1.41"/><circle cx="273.0" cy="23.0" r="1.57"/><circle cx="280.0" cy="23.0" r="1.74"/><circle cx="287.0" cy="23.0" r="1.91"/><circle cx="294.0" cy="23.0" r="2.08"/><circle cx="301.0" cy="23.0" r="2.24"/><circle cx="308.0" cy="23.0" r="2.41"/><circle cx="315.0" cy="23.0" r="2.58"/><circle cx="224.0" cy="30.0" r="0.40"/><circle cx="231.0" cy="30.0" r="0.57"/><circle cx="238.0" cy="30.0" r="0.74"/><circle cx="245.0" cy="30.0" r="0.90"/><circle cx="252.0" cy="30.0" r="1.07"/><circle cx="259.0" cy="30.0" r="1.24"/><circle cx="266.0" cy="30.0" r="1.41"/><circle cx="273.0" cy="30.0" r="1.57"/><circle cx="280.0" cy="30.0" r="1.74"/><circle cx="287.0" cy="30.0" r="1.91"/><circle cx="294.0" cy="30.0" r="2.08"/><circle cx="301.0" cy="30.0" r="2.24"/><circle cx="308.0" cy="30.0" r="2.41"/><circle cx="315.0" cy="30.0" r="2.58"/><circle cx="224.0" cy="37.0" r="0.40"/><circle cx="231.0" cy="37.0" r="0.57"/><circle cx="238.0" cy="37.0" r="0.74"/><circle cx="245.0" cy="37.0" r="0.90"/><circle cx="252.0" cy="37.0" r="1.07"/><circle cx="259.0" cy="37.0" r="1.24"/><circle cx="266.0" cy="37.0" r="1.41"/><circle cx="273.0" cy="37.0" r="1.57"/><circle cx="280.0" cy="37.0" r="1.74"/><circle cx="287.0" cy="37.0" r="1.91"/><circle cx="294.0" cy="37.0" r="2.08"/><circle cx="301.0" cy="37.0" r="2.24"/><circle cx="308.0" cy="37.0" r="2.41"/><circle cx="315.0" cy="37.0" r="2.58"/></g>
+  <line x1="0" y1="48" x2="340" y2="48" stroke="#01344F" stroke-width="2.5"/>
+</g>
+<rect x="1.5" y="1.5" width="334" height="194" rx="16" fill="none" stroke="#01344F" stroke-width="2.5"/>
+<text class="t" x="22" y="32">Lenguajes por commit</text>
+<rect x="24" y="67" width="12" height="12" rx="3" fill="#D12128" stroke="#01344F" stroke-width="1.2"/>
+<text class="x" x="44" y="78">PHP <tspan class="m">39%</tspan></text>
+<rect x="24" y="91" width="12" height="12" rx="3" fill="#01344F" stroke="#01344F" stroke-width="1.2"/>
+<text class="x" x="44" y="102">HTML <tspan class="m">34%</tspan></text>
+<rect x="24" y="115" width="12" height="12" rx="3" fill="#C99A3E" stroke="#01344F" stroke-width="1.2"/>
+<text class="x" x="44" y="126">Python <tspan class="m">18%</tspan></text>
+<rect x="24" y="139" width="12" height="12" rx="3" fill="#4C7A96" stroke="#01344F" stroke-width="1.2"/>
+<text class="x" x="44" y="150">CSS <tspan class="m">6%</tspan></text>
+<rect x="24" y="163" width="12" height="12" rx="3" fill="#8C1419" stroke="#01344F" stroke-width="1.2"/>
+<text class="x" x="44" y="174">JavaScript <tspan class="m">3%</tspan></text><path d="M258.00,67.00 A55.0,55.0 0 0 1 291.81,165.38 L278.29,148.03 A33.0,33.0 0 0 0 258.00,89.00 Z" fill="#D12128" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M291.81,165.38 A55.0,55.0 0 0 1 203.22,126.96 L225.13,124.98 A33.0,33.0 0 0 0 278.29,148.03 Z" fill="#01344F" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M203.22,126.96 A55.0,55.0 0 0 1 229.08,75.22 L240.65,93.93 A33.0,33.0 0 0 0 225.13,124.98 Z" fill="#C99A3E" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M229.08,75.22 A55.0,55.0 0 0 1 247.47,68.02 L251.68,89.61 A33.0,33.0 0 0 0 240.65,93.93 Z" fill="#4C7A96" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M247.47,68.02 A55.0,55.0 0 0 1 258.00,67.00 L258.00,89.00 A33.0,33.0 0 0 0 251.68,89.61 Z" fill="#8C1419" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="258" cy="122" r="29.0" fill="none" stroke="#01344F" stroke-width="1.5" stroke-dasharray="2 3"/>
 </svg>

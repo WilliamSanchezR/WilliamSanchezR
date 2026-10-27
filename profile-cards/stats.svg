@@ -1,24 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-label="Estadísticas de GitHub">
 <style>
   text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
-  .t { font-size: 21px; font-weight: 600; fill: #F27D16; }
-  .x { font-size: 14px; fill: #E9E4D8; }
-  .m { font-size: 11px; fill: #A9B79A; }
-  .v { font-size: 14px; font-weight: 700; fill: #E9E4D8; }
+  .t { font-family: 'Arial Black', 'Segoe UI Black', Impact, 'Helvetica Neue', sans-serif; font-size: 19px; font-weight: 900; fill: #FAE3AC; letter-spacing: .3px; }
+  .x { font-size: 14px; fill: #01344F; }
+  .m { font-size: 11px; fill: #4F6B7A; }
+  .v { font-family: 'Arial Black', 'Segoe UI Black', Impact, 'Helvetica Neue', sans-serif; font-size: 14px; font-weight: 900; fill: #01344F; }
 </style>
-<clipPath id="k"><rect x="0.5" y="0.5" width="339" height="199" rx="8"/></clipPath>
-<rect x="0.5" y="0.5" width="339" height="199" rx="8" fill="#333333"/>
-<rect x="0" y="0" width="5" height="200" fill="#F27D16" clip-path="url(#k)"/>
-<rect x="0.5" y="0.5" width="339" height="199" rx="8" fill="none" stroke="#264A31" stroke-width="1.5"/>
-<text class="t" x="24" y="38">Estadísticas</text>
-<text class="x" x="26" y="76">Estrellas</text><text class="v" x="210" y="76" text-anchor="end">1</text>
-<text class="x" x="26" y="100">Commits (último año)</text><text class="v" x="210" y="100" text-anchor="end">543</text>
-<text class="x" x="26" y="124">Pull requests</text><text class="v" x="210" y="124" text-anchor="end">327</text>
-<text class="x" x="26" y="148">Issues</text><text class="v" x="210" y="148" text-anchor="end">0</text>
-<text class="x" x="26" y="172">Contribuyó a</text><text class="v" x="210" y="172" text-anchor="end">0</text>
-<circle cx="272" cy="118" r="42" fill="none" stroke="#454545" stroke-width="9"/>
-<circle cx="272" cy="118" r="42" fill="none" stroke="#F27D16" stroke-width="9" stroke-linecap="round"
-  stroke-dasharray="143.3 263.9" transform="rotate(-90 272 118)"/>
-<text x="272" y="122" text-anchor="middle" style="font-size:22px;font-weight:700;fill:#E9E4D8">543</text>
-<text class="m" x="272" y="140" text-anchor="middle">commits</text>
+<clipPath id="k"><rect x="1.5" y="1.5" width="334" height="194" rx="16"/></clipPath>
+<rect x="6" y="6" width="333" height="193" rx="16" fill="#01344F"/>
+<rect x="1.5" y="1.5" width="334" height="194" rx="16" fill="#FAE3AC"/>
+<g clip-path="url(#k)">
+  <rect x="0" y="0" width="340" height="48" fill="#D12128"/>
+  <g fill="#FAE3AC" opacity="0.45"><circle cx="224.0" cy="9.0" r="0.40"/><circle cx="231.0" cy="9.0" r="0.57"/><circle cx="238.0" cy="9.0" r="0.74"/><circle cx="245.0" cy="9.0" r="0.90"/><circle cx="252.0" cy="9.0" r="1.07"/><circle cx="259.0" cy="9.0" r="1.24"/><circle cx="266.0" cy="9.0" r="1.41"/><circle cx="273.0" cy="9.0" r="1.57"/><circle cx="280.0" cy="9.0" r="1.74"/><circle cx="287.0" cy="9.0" r="1.91"/><circle cx="294.0" cy="9.0" r="2.08"/><circle cx="301.0" cy="9.0" r="2.24"/><circle cx="308.0" cy="9.0" r="2.41"/><circle cx="315.0" cy="9.0" r="2.58"/><circle cx="224.0" cy="16.0" r="0.40"/><circle cx="231.0" cy="16.0" r="0.57"/><circle cx="238.0" cy="16.0" r="0.74"/><circle cx="245.0" cy="16.0" r="0.90"/><circle cx="252.0" cy="16.0" r="1.07"/><circle cx="259.0" cy="16.0" r="1.24"/><circle cx="266.0" cy="16.0" r="1.41"/><circle cx="273.0" cy="16.0" r="1.57"/><circle cx="280.0" cy="16.0" r="1.74"/><circle cx="287.0" cy="16.0" r="1.91"/><circle cx="294.0" cy="16.0" r="2.08"/><circle cx="301.0" cy="16.0" r="2.24"/><circle cx="308.0" cy="16.0" r="2.41"/><circle cx="315.0" cy="16.0" r="2.58"/><circle cx="224.0" cy="23.0" r="0.40"/><circle cx="231.0" cy="23.0" r="0.57"/><circle cx="238.0" cy="23.0" r="0.74"/><circle cx="245.0" cy="23.0" r="0.90"/><circle cx="252.0" cy="23.0" r="1.07"/><circle cx="259.0" cy="23.0" r="1.24"/><circle cx="266.0" cy="23.0" r="1.41"/><circle cx="273.0" cy="23.0" r="1.57"/><circle cx="280.0" cy="23.0" r="1.74"/><circle cx="287.0" cy="23.0" r="1.91"/><circle cx="294.0" cy="23.0" r="2.08"/><circle cx="301.0" cy="23.0" r="2.24"/><circle cx="308.0" cy="23.0" r="2.41"/><circle cx="315.0" cy="23.0" r="2.58"/><circle cx="224.0" cy="30.0" r="0.40"/><circle cx="231.0" cy="30.0" r="0.57"/><circle cx="238.0" cy="30.0" r="0.74"/><circle cx="245.0" cy="30.0" r="0.90"/><circle cx="252.0" cy="30.0" r="1.07"/><circle cx="259.0" cy="30.0" r="1.24"/><circle cx="266.0" cy="30.0" r="1.41"/><circle cx="273.0" cy="30.0" r="1.57"/><circle cx="280.0" cy="30.0" r="1.74"/><circle cx="287.0" cy="30.0" r="1.91"/><circle cx="294.0" cy="30.0" r="2.08"/><circle cx="301.0" cy="30.0" r="2.24"/><circle cx="308.0" cy="30.0" r="2.41"/><circle cx="315.0" cy="30.0" r="2.58"/><circle cx="224.0" cy="37.0" r="0.40"/><circle cx="231.0" cy="37.0" r="0.57"/><circle cx="238.0" cy="37.0" r="0.74"/><circle cx="245.0" cy="37.0" r="0.90"/><circle cx="252.0" cy="37.0" r="1.07"/><circle cx="259.0" cy="37.0" r="1.24"/><circle cx="266.0" cy="37.0" r="1.41"/><circle cx="273.0" cy="37.0" r="1.57"/><circle cx="280.0" cy="37.0" r="1.74"/><circle cx="287.0" cy="37.0" r="1.91"/><circle cx="294.0" cy="37.0" r="2.08"/><circle cx="301.0" cy="37.0" r="2.24"/><circle cx="308.0" cy="37.0" r="2.41"/><circle cx="315.0" cy="37.0" r="2.58"/></g>
+  <line x1="0" y1="48" x2="340" y2="48" stroke="#01344F" stroke-width="2.5"/>
+</g>
+<rect x="1.5" y="1.5" width="334" height="194" rx="16" fill="none" stroke="#01344F" stroke-width="2.5"/>
+<text class="t" x="22" y="32">Estadísticas</text>
+<text class="x" x="24" y="78">Estrellas</text><text class="v" x="208" y="78" text-anchor="end">1</text>
+<text class="x" x="24" y="101">Commits (último año)</text><text class="v" x="208" y="101" text-anchor="end">544</text>
+<text class="x" x="24" y="124">Pull requests</text><text class="v" x="208" y="124" text-anchor="end">327</text>
+<text class="x" x="24" y="147">Issues</text><text class="v" x="208" y="147" text-anchor="end">0</text>
+<text class="x" x="24" y="170">Contribuyó a</text><text class="v" x="208" y="170" text-anchor="end">0</text>
+<circle cx="266" cy="120" r="40" fill="none" stroke="#E6C987" stroke-width="9"/>
+<circle cx="266" cy="120" r="40" fill="none" stroke="#D12128" stroke-width="9" stroke-linecap="round"
+  stroke-dasharray="136.7 251.3" transform="rotate(-90 266 120)"/>
+<text x="266" y="124" text-anchor="middle" style="font-family:'Arial Black', 'Segoe UI Black', Impact, 'Helvetica Neue', sans-serif;font-size:22px;font-weight:900;fill:#01344F">544</text>
+<text class="m" x="266" y="142" text-anchor="middle">commits</text>
 </svg>
