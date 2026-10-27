@@ -12,18 +12,19 @@ from collections import Counter
 from datetime import datetime, timedelta, timezone
 from xml.sax.saxutils import escape
 
-# ---------------- Paleta (Jungle Canopy / Lava Glow / Gorilla Fur / Mountain Moss) ----------------
+# ---------------- Paleta (cartel retro americano: rojo / azul marino / crema) ----------------
 C = {
-    "bg": "#333333",        # Gorilla Fur
-    "border": "#264A31",    # Jungle Canopy
-    "title": "#F27D16",     # Lava Glow
-    "text": "#E9E4D8",
-    "muted": "#A9B79A",
-    "moss": "#6B854A",      # Mountain Moss
-    "grid": "#454545",
+    "bg": "#FAE3AC",        # papel crema
+    "ink": "#01344F",       # azul marino: bordes, sombra y texto
+    "title": "#D12128",     # rojo cartel
+    "text": "#01344F",
+    "muted": "#4F6B7A",
+    "moss": "#01344F",      # acento secundario
+    "grid": "#E6C987",      # crema más oscuro para pistas y ejes
 }
-SLICES = ["#F27D16", "#6B854A", "#A3B86C", "#C2410C", "#E9E4D8", "#3F6B47"]
+SLICES = ["#D12128", "#01344F", "#C99A3E", "#4C7A96", "#8C1419", "#E07A5F"]
 FONT = "'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
+DISPLAY = "'Arial Black', 'Segoe UI Black', Impact, 'Helvetica Neue', sans-serif"
 UTC_OFFSET = -5  # Colombia
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 
@@ -125,36 +126,66 @@ def fetch():
 
 
 # ---------------- Dibujo ----------------
+def halftone(x0, x1, y0, y1, color, step=7):
+    """Trama de puntos que crecen hacia la derecha, como la impresión de un cartel viejo."""
+    dots = []
+    y = y0
+    while y <= y1:
+        x = x0
+        while x <= x1:
+            r = 0.4 + 2.3 * (x - x0) / max(x1 - x0, 1)
+            dots.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r:.2f}"/>')
+            x += step
+        y += step
+    return f'<g fill="{color}" opacity="0.45">{"".join(dots)}</g>'
+
+
 def card(w, h, title, body, label):
+    # Tarjeta de papel con borde de tinta, sombra dura desplazada y cabecera roja
+    cw, ch, band = w - 6, h - 6, 48
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{escape(label)}">
 <style>
   text {{ font-family: {FONT}; }}
-  .t {{ font-size: 21px; font-weight: 600; fill: {C['title']}; }}
+  .t {{ font-family: {DISPLAY}; font-size: 19px; font-weight: 900; fill: {C['bg']}; letter-spacing: .3px; }}
   .x {{ font-size: 14px; fill: {C['text']}; }}
   .m {{ font-size: 11px; fill: {C['muted']}; }}
-  .v {{ font-size: 14px; font-weight: 700; fill: {C['text']}; }}
+  .v {{ font-family: {DISPLAY}; font-size: 14px; font-weight: 900; fill: {C['text']}; }}
 </style>
-<clipPath id="k"><rect x="0.5" y="0.5" width="{w-1}" height="{h-1}" rx="8"/></clipPath>
-<rect x="0.5" y="0.5" width="{w-1}" height="{h-1}" rx="8" fill="{C['bg']}"/>
-<rect x="0" y="0" width="5" height="{h}" fill="{C['title']}" clip-path="url(#k)"/>
-<rect x="0.5" y="0.5" width="{w-1}" height="{h-1}" rx="8" fill="none" stroke="{C['border']}" stroke-width="1.5"/>
-<text class="t" x="24" y="38">{escape(title)}</text>
+<clipPath id="k"><rect x="1.5" y="1.5" width="{cw}" height="{ch}" rx="16"/></clipPath>
+<rect x="6" y="6" width="{cw - 1}" height="{ch - 1}" rx="16" fill="{C['ink']}"/>
+<rect x="1.5" y="1.5" width="{cw}" height="{ch}" rx="16" fill="{C['bg']}"/>
+<g clip-path="url(#k)">
+  <rect x="0" y="0" width="{w}" height="{band}" fill="{C['title']}"/>
+  {halftone(cw - 110, cw - 14, 9, band - 6, C['bg'])}
+  <line x1="0" y1="{band}" x2="{w}" y2="{band}" stroke="{C['ink']}" stroke-width="2.5"/>
+</g>
+<rect x="1.5" y="1.5" width="{cw}" height="{ch}" rx="16" fill="none" stroke="{C['ink']}" stroke-width="2.5"/>
+<text class="t" x="22" y="32">{escape(title)}</text>
 {body}
 </svg>"""
 
 
 def donut(items, cx, cy, r=48, sw=22):
+    # Arcos reales (no stroke-dasharray), separados por una línea del color del papel
     total = sum(v for _, v in items) or 1
-    circ = 2 * math.pi * r
-    out, offset = [f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{C["grid"]}" stroke-width="{sw}"/>'], 0
+    ro, ri = r + sw / 2, r - sw / 2
+    if len(items) == 1:
+        return (f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{SLICES[0]}" stroke-width="{sw}"/>'
+                f'<circle cx="{cx}" cy="{cy}" r="{ro}" fill="none" stroke="{C["ink"]}" stroke-width="2"/>')
+
+    def pt(rad, a):
+        return f"{cx + rad * math.cos(a):.2f},{cy + rad * math.sin(a):.2f}"
+
+    out, a0 = [], -math.pi / 2
     for i, (_, v) in enumerate(items):
-        seg = circ * v / total
+        a1 = a0 + 2 * math.pi * v / total
+        big = 1 if a1 - a0 > math.pi else 0
         out.append(
-            f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{SLICES[i % len(SLICES)]}" stroke-width="{sw}" '
-            f'stroke-dasharray="{seg:.2f} {circ - seg:.2f}" stroke-dashoffset="{-offset:.2f}" '
-            f'transform="rotate(-90 {cx} {cy})"/>'
+            f'<path d="M{pt(ro, a0)} A{ro},{ro} 0 {big} 1 {pt(ro, a1)} L{pt(ri, a1)} A{ri},{ri} 0 {big} 0 {pt(ri, a0)} Z" '
+            f'fill="{SLICES[i % len(SLICES)]}" stroke="{C["bg"]}" stroke-width="2.5" stroke-linejoin="round"/>'
         )
-        offset += seg
+        a0 = a1
+    out.append(f'<circle cx="{cx}" cy="{cy}" r="{ri - 4}" fill="none" stroke="{C["ink"]}" stroke-width="1.5" stroke-dasharray="2 3"/>')
     return "\n".join(out)
 
 
@@ -162,8 +193,8 @@ def legend(items, x, y):
     total = sum(v for _, v in items) or 1
     out = []
     for i, (name, v) in enumerate(items):
-        yy = y + i * 26
-        out.append(f'<rect x="{x}" y="{yy-11}" width="12" height="12" rx="3" fill="{SLICES[i % len(SLICES)]}"/>')
+        yy = y + i * 24
+        out.append(f'<rect x="{x}" y="{yy-11}" width="12" height="12" rx="3" fill="{SLICES[i % len(SLICES)]}" stroke="{C['ink']}" stroke-width="1.2"/>')
         out.append(f'<text class="x" x="{x+20}" y="{yy}">{escape(name)} <tspan class="m">{v*100/total:.0f}%</tspan></text>')
     return "\n".join(out)
 
@@ -172,7 +203,7 @@ def lang_card(title, items, label):
     if not items:
         body = '<text class="m" x="24" y="110">Sin datos todavía</text>'
     else:
-        body = legend(items, 26, 76) + donut(items, 262, 120)
+        body = legend(items, 24, 78) + donut(items, 258, 122, r=44, sw=22)
     return card(340, 200, title, body, label)
 
 
@@ -191,7 +222,7 @@ def profile_card(d):
     days = d["days"]
     weeks = [days[i:i + 7] for i in range(0, len(days), 7)]
     vals = [sum(x["contributionCount"] for x in w) for w in weeks]
-    x0, x1, y0, y1 = 330, 676, 58, 166
+    x0, x1, y0, y1 = 330, 668, 74, 164
     top = max(vals + [1])
     step = (x1 - x0) / max(len(vals) - 1, 1)
     pts = [(x0 + i * step, y1 - (v / top) * (y1 - y0)) for i, v in enumerate(vals)]
@@ -212,8 +243,8 @@ def profile_card(d):
         (f"En GitHub desde {d['since']}"),
     ]
     info = "\n".join(
-        f'<circle cx="31" cy="{88 + i*32}" r="5" fill="{C["moss"] if i else C["title"]}"/>'
-        f'<text class="x" x="46" y="{93 + i*32}">{escape(r)}</text>'
+        f'<circle cx="31" cy="{90 + i*32}" r="5" fill="{C["moss"] if i else C["title"]}"/>'
+        f'<text class="x" x="46" y="{95 + i*32}">{escape(r)}</text>'
         for i, r in enumerate(rows)
     )
     body = f"""
@@ -221,10 +252,10 @@ def profile_card(d):
   <stop offset="0" stop-color="{C['title']}" stop-opacity="0.55"/>
   <stop offset="1" stop-color="{C['moss']}" stop-opacity="0.05"/>
 </linearGradient></defs>
-<text class="m" x="{x1}" y="38" text-anchor="end">contribuciones por semana</text>
+<text class="m" x="{x1}" y="66" text-anchor="end">contribuciones por semana</text>
 <line x1="{x0}" y1="{y1}" x2="{x1}" y2="{y1}" stroke="{C['grid']}"/>
 <path d="{area}" fill="url(#a)"/>
-<path d="{line}" fill="none" stroke="{C['title']}" stroke-width="2"/>
+<path d="{line}" fill="none" stroke="{C['title']}" stroke-width="2.5"/>
 {''.join(labels)}
 {info}"""
     title = d["name"] if len(d["name"]) <= 24 else d["name"][:23] + "…"
@@ -232,7 +263,7 @@ def profile_card(d):
 
 
 def hours_card(hours):
-    x0, x1, y0, y1 = 40, 318, 74, 162
+    x0, x1, y0, y1 = 36, 312, 80, 164
     top = max(hours + [1])
     bw = (x1 - x0) / 24
     peak = hours.index(max(hours)) if any(hours) else -1
@@ -244,7 +275,7 @@ def hours_card(hours):
     ticks = "".join(
         f'<text class="m" x="{x0 + h*bw + bw/2:.1f}" y="{y1+16}" text-anchor="middle">{h}h</text>' for h in (0, 6, 12, 18, 23)
     )
-    note = f'<text class="m" x="24" y="58">Hora Colombia (UTC-5){f", pico a las {peak}h" if peak >= 0 else ""}</text>'
+    note = f'<text class="m" x="22" y="68">Hora Colombia (UTC-5){f", pico a las {peak}h" if peak >= 0 else ""}</text>'
     body = f'<line x1="{x0}" y1="{y1}" x2="{x1}" y2="{y1}" stroke="{C["grid"]}"/>{"".join(bars)}{ticks}{note}'
     return card(340, 200, "Commits por hora", body, "Commits por hora del día")
 
@@ -253,17 +284,17 @@ def stats_card(d):
     rows = [("Estrellas", d["stars"]), ("Commits (último año)", d["commits"]),
             ("Pull requests", d["prs"]), ("Issues", d["issues"]), ("Contribuyó a", d["contributed_to"])]
     body = "\n".join(
-        f'<text class="x" x="26" y="{76 + i*24}">{label}</text><text class="v" x="210" y="{76 + i*24}" text-anchor="end">{val}</text>'
+        f'<text class="x" x="24" y="{78 + i*23}">{label}</text><text class="v" x="208" y="{78 + i*23}" text-anchor="end">{val}</text>'
         for i, (label, val) in enumerate(rows)
     )
-    r, cx, cy = 42, 272, 118
+    r, cx, cy = 40, 266, 120
     circ = 2 * math.pi * r
     filled = circ * min(d["commits"] / 1000, 1)
     body += f"""
 <circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{C['grid']}" stroke-width="9"/>
 <circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{C['title']}" stroke-width="9" stroke-linecap="round"
   stroke-dasharray="{filled:.1f} {circ:.1f}" transform="rotate(-90 {cx} {cy})"/>
-<text x="{cx}" y="{cy+4}" text-anchor="middle" style="font-size:22px;font-weight:700;fill:{C['text']}">{d['commits']}</text>
+<text x="{cx}" y="{cy+4}" text-anchor="middle" style="font-family:{DISPLAY};font-size:22px;font-weight:900;fill:{C['text']}">{d['commits']}</text>
 <text class="m" x="{cx}" y="{cy+22}" text-anchor="middle">commits</text>"""
     return card(340, 200, "Estadísticas", body, "Estadísticas de GitHub")
 
