@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-label="Lenguajes por repositorio">
+<style>
+  text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  .t { font-size: 21px; font-weight: 600; fill: #F27D16; }
+  .x { font-size: 14px; fill: #E9E4D8; }
+  .m { font-size: 11px; fill: #A9B79A; }
+  .v { font-size: 14px; font-weight: 700; fill: #E9E4D8; }
+</style>
+<clipPath id="k"><rect x="0.5" y="0.5" width="339" height="199" rx="8"/></clipPath>
+<rect x="0.5" y="0.5" width="339" height="199" rx="8" fill="#333333"/>
+<rect x="0" y="0" width="5" height="200" fill="#F27D16" clip-path="url(#k)"/>
+<rect x="0.5" y="0.5" width="339" height="199" rx="8" fill="none" stroke="#264A31" stroke-width="1.5"/>
+<text class="t" x="24" y="38">Lenguajes por repositorio</text>
+<rect x="26" y="65" width="12" height="12" rx="3" fill="#F27D16"/>
+<text class="x" x="46" y="76">HTML <tspan class="m">47%</tspan></text>
+<rect x="26" y="91" width="12" height="12" rx="3" fill="#6B854A"/>
+<text class="x" x="46" y="102">JavaScript <tspan class="m">23%</tspan></text>
+<rect x="26" y="117" width="12" height="12" rx="3" fill="#A3B86C"/>
+<text class="x" x="46" y="128">CSS <tspan class="m">17%</tspan></text>
+<rect x="26" y="143" width="12" height="12" rx="3" fill="#C2410C"/>
+<text class="x" x="46" y="154">PHP <tspan class="m">7%</tspan></text>
+<rect x="26" y="169" width="12" height="12" rx="3" fill="#E9E4D8"/>
+<text class="x" x="46" y="180">C# <tspan class="m">7%</tspan></text><circle cx="262" cy="120" r="48" fill="none" stroke="#454545" stroke-width="22"/>
+<circle cx="262" cy="120" r="48" fill="none" stroke="#F27D16" stroke-width="22" stroke-dasharray="140.74 160.85" stroke-dashoffset="0.00" transform="rotate(-90 262 120)"/>
+<circle cx="262" cy="120" r="48" fill="none" stroke="#6B854A" stroke-width="22" stroke-dasharray="70.37 231.22" stroke-dashoffset="-140.74" transform="rotate(-90 262 120)"/>
+<circle cx="262" cy="120" r="48" fill="none" stroke="#A3B86C" stroke-width="22" stroke-dasharray="50.27 251.33" stroke-dashoffset="-211.12" transform="rotate(-90 262 120)"/>
+<circle cx="262" cy="120" r="48" fill="none" stroke="#C2410C" stroke-width="22" stroke-dasharray="20.11 281.49" stroke-dashoffset="-261.38" transform="rotate(-90 262 120)"/>
+<circle cx="262" cy="120" r="48" fill="none" stroke="#E9E4D8" stroke-width="22" stroke-dasharray="20.11 281.49" stroke-dashoffset="-281.49" transform="rotate(-90 262 120)"/>
+</svg>

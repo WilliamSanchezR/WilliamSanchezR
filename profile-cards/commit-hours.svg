@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-label="Commits por hora del día">
+<style>
+  text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  .t { font-size: 21px; font-weight: 600; fill: #F27D16; }
+  .x { font-size: 14px; fill: #E9E4D8; }
+  .m { font-size: 11px; fill: #A9B79A; }
+  .v { font-size: 14px; font-weight: 700; fill: #E9E4D8; }
+</style>
+<clipPath id="k"><rect x="0.5" y="0.5" width="339" height="199" rx="8"/></clipPath>
+<rect x="0.5" y="0.5" width="339" height="199" rx="8" fill="#333333"/>
+<rect x="0" y="0" width="5" height="200" fill="#F27D16" clip-path="url(#k)"/>
+<rect x="0.5" y="0.5" width="339" height="199" rx="8" fill="none" stroke="#264A31" stroke-width="1.5"/>
+<text class="t" x="24" y="38">Commits por hora</text>
+<line x1="40" y1="162" x2="318" y2="162" stroke="#454545"/><rect x="41.5" y="159.7" width="8.6" height="2.3" rx="2" fill="#6B854A"/><rect x="53.1" y="162.0" width="8.6" height="0.0" rx="2" fill="#6B854A"/><rect x="64.7" y="162.0" width="8.6" height="0.0" rx="2" fill="#6B854A"/><rect x="76.2" y="162.0" width="8.6" height="0.0" rx="2" fill="#6B854A"/><rect x="87.8" y="162.0" width="8.6" height="0.0" rx="2" fill="#6B854A"/><rect x="99.4" y="162.0" width="8.6" height="0.0" rx="2" fill="#6B854A"/><rect x="111.0" y="162.0" width="8.6" height="0.0" rx="2" fill="#6B854A"/><rect x="122.6" y="162.0" width="8.6" height="0.0" rx="2" fill="#6B854A"/><rect x="134.2" y="155.2" width="8.6" height="6.8" rx="2" fill="#6B854A"/><rect x="145.8" y="148.5" width="8.6" height="13.5" rx="2" fill="#6B854A"/><rect x="157.3" y="130.4" width="8.6" height="31.6" rx="2" fill="#6B854A"/><rect x="168.9" y="159.7" width="8.6" height="2.3" rx="2" fill="#6B854A"/><rect x="180.5" y="141.7" width="8.6" height="20.3" rx="2" fill="#6B854A"/><rect x="192.1" y="80.8" width="8.6" height="81.2" rx="2" fill="#6B854A"/><rect x="203.7" y="98.8" width="8.6" height="63.2" rx="2" fill="#6B854A"/><rect x="215.2" y="107.8" width="8.6" height="54.2" rx="2" fill="#6B854A"/><rect x="226.8" y="74.0" width="8.6" height="88.0" rx="2" fill="#F27D16"/><rect x="238.4" y="89.8" width="8.6" height="72.2" rx="2" fill="#6B854A"/><rect x="250.0" y="116.9" width="8.6" height="45.1" rx="2" fill="#6B854A"/><rect x="261.6" y="137.2" width="8.6" height="24.8" rx="2" fill="#6B854A"/><rect x="273.2" y="141.7" width="8.6" height="20.3" rx="2" fill="#6B854A"/><rect x="284.8" y="150.7" width="8.6" height="11.3" rx="2" fill="#6B854A"/><rect x="296.3" y="121.4" width="8.6" height="40.6" rx="2" fill="#6B854A"/><rect x="307.9" y="139.4" width="8.6" height="22.6" rx="2" fill="#6B854A"/><text class="m" x="45.8" y="178" text-anchor="middle">0h</text><text class="m" x="115.3" y="178" text-anchor="middle">6h</text><text class="m" x="184.8" y="178" text-anchor="middle">12h</text><text class="m" x="254.3" y="178" text-anchor="middle">18h</text><text class="m" x="312.2" y="178" text-anchor="middle">23h</text><text class="m" x="24" y="58">Hora Colombia (UTC-5), pico a las 16h</text>
+</svg>
