@@ -25,10 +25,10 @@
 <rect x="24" y="139" width="12" height="12" rx="3" fill="#4C7A96" stroke="#01344F" stroke-width="1.2"/>
 <text class="x" x="44" y="150">CSS <tspan class="m">6%</tspan></text>
 <rect x="24" y="163" width="12" height="12" rx="3" fill="#8C1419" stroke="#01344F" stroke-width="1.2"/>
-<text class="x" x="44" y="174">JavaScript <tspan class="m">3%</tspan></text><path d="M258.00,67.00 A55.0,55.0 0 0 1 291.81,165.38 L278.29,148.03 A33.0,33.0 0 0 0 258.00,89.00 Z" fill="#D12128" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
-<path d="M291.81,165.38 A55.0,55.0 0 0 1 203.22,126.96 L225.13,124.98 A33.0,33.0 0 0 0 278.29,148.03 Z" fill="#01344F" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
-<path d="M203.22,126.96 A55.0,55.0 0 0 1 229.08,75.22 L240.65,93.93 A33.0,33.0 0 0 0 225.13,124.98 Z" fill="#C99A3E" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
-<path d="M229.08,75.22 A55.0,55.0 0 0 1 247.47,68.02 L251.68,89.61 A33.0,33.0 0 0 0 240.65,93.93 Z" fill="#4C7A96" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
-<path d="M247.47,68.02 A55.0,55.0 0 0 1 258.00,67.00 L258.00,89.00 A33.0,33.0 0 0 0 251.68,89.61 Z" fill="#8C1419" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
+<text class="x" x="44" y="174">JavaScript <tspan class="m">3%</tspan></text><path d="M258.00,67.00 A55.0,55.0 0 0 1 292.22,165.06 L278.53,147.84 A33.0,33.0 0 0 0 258.00,89.00 Z" fill="#D12128" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M292.22,165.06 A55.0,55.0 0 0 1 203.32,127.92 L225.19,125.55 A33.0,33.0 0 0 0 278.53,147.84 Z" fill="#01344F" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M203.32,127.92 A55.0,55.0 0 0 1 229.18,75.16 L240.71,93.89 A33.0,33.0 0 0 0 225.19,125.55 Z" fill="#C99A3E" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M229.18,75.16 A55.0,55.0 0 0 1 247.51,68.01 L251.71,89.61 A33.0,33.0 0 0 0 240.71,93.89 Z" fill="#4C7A96" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M247.51,68.01 A55.0,55.0 0 0 1 258.00,67.00 L258.00,89.00 A33.0,33.0 0 0 0 251.71,89.61 Z" fill="#8C1419" stroke="#FAE3AC" stroke-width="2.5" stroke-linejoin="round"/>
 <circle cx="258" cy="122" r="29.0" fill="none" stroke="#01344F" stroke-width="1.5" stroke-dasharray="2 3"/>
 </svg>
